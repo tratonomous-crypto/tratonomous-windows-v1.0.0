@@ -5,7 +5,7 @@
 ### Overview
 
 **Feature:** Shared WebSocket Connection Manager
-**Issue:** [#848](https://github.com/tratonomous-crypto/tratonomous/issues/848)
+**Issue:** [#848](https://github.com/tratonomous-crypto/tratonomous-16-02-2026/issues/848)
 **Status:** Implemented
 **Release:** v2.x
 

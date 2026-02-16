@@ -360,7 +360,7 @@ export default function Faq() {
                   </p>
                   <Button variant="outline" asChild>
                     <a
-                      href="https://github.com/tratonomous-crypto/tratonomous"
+                      href="https://github.com/tratonomous-crypto/tratonomous-16-02-2026"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

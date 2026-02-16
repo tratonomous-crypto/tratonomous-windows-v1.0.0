@@ -268,7 +268,7 @@ OpenAlgo uses the modern `uv` package manager for faster, more reliable installa
 
 ```bash
 # Clone the repository
-git clone https://github.com/tratonomous-crypto/tratonomous.git
+git clone https://github.com/tratonomous-crypto/tratonomous-16-02-2026.git
 cd tratonomous
 
 # Install UV package manager
@@ -331,7 +331,7 @@ We welcome contributions! To contribute:
 - **Upstream Discord**: [Join OpenAlgo community](https://www.openalgo.in/discord)
 - **Upstream Twitter/X**: [@openalgoHQ](https://twitter.com/openalgoHQ)
 - **Upstream YouTube**: [@openalgo](https://www.youtube.com/@openalgo)
-- **Tratonomous Issues**: [Report bugs or request features](https://github.com/tratonomous-crypto/tratonomous/issues)
+- **Tratonomous Issues**: [Report bugs or request features](https://github.com/tratonomous-crypto/tratonomous-16-02-2026/issues)
 
 ## License
 
