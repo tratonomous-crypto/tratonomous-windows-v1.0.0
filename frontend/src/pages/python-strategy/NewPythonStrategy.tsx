@@ -12,8 +12,8 @@ import { Label } from '@/components/ui/label'
 import { SCHEDULE_DAYS } from '@/types/python-strategy'
 
 const EXAMPLE_STRATEGY = `"""
-Example OpenAlgo Strategy
-This is a minimal example showing how to use the OpenAlgo Python SDK.
+Example Tratonomous Strategy
+This is a minimal example showing how to use the Tratonomous Python SDK.
 """
 
 import os
@@ -21,7 +21,7 @@ import time
 from openalgo import api
 
 # Get API key from environment variable
-API_KEY = os.getenv('OPENALGO_API_KEY')
+API_KEY = os.getenv('TRATONOMOUS_API_KEY')
 
 # Initialize the API client
 client = api(

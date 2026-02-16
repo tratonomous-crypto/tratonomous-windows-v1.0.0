@@ -1,26 +1,21 @@
-# OpenAlgo - Open Source Algorithmic Trading Platform
+# Tratonomous - Open Source Algorithmic Trading Platform
+
+> **⚠️ Fork Notice**: Tratonomous is a fork of [OpenAlgo](https://github.com/marketcalls/openalgo) by [Marketcalls](https://github.com/marketcalls), rebranded and maintained by [tratonomous-crypto](https://github.com/tratonomous-crypto). All original work is credited to the OpenAlgo team. This project is distributed under the same AGPL-3.0 license.
 
 <div align="center">
 
-[![PyPI Downloads](https://static.pepy.tech/badge/openalgo)](https://pepy.tech/projects/openalgo)
-[![PyPI Downloads](https://static.pepy.tech/badge/openalgo/month)](https://pepy.tech/projects/openalgo)
-[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/openalgoHQ)](https://twitter.com/openalgoHQ)
-[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCw7eVneIEyiTApy4RtxrJsQ)](https://www.youtube.com/@openalgo)
-[![Discord](https://img.shields.io/discord/1219847221055455263)](https://discord.com/invite/UPh7QPsNhP)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Upstream: OpenAlgo](https://img.shields.io/badge/Upstream-OpenAlgo-orange)](https://github.com/marketcalls/openalgo)
 
 </div>
 
-**OpenAlgo** is a production-ready, open-source algorithmic trading platform built with Flask and React. It provides a unified API layer across 24+ Indian brokers, enabling seamless integration with popular platforms like TradingView, Amibroker, Excel, Python, and AI agents. Designed for traders and developers, OpenAlgo makes algo trading accessible, secure, and powerful.
+**Tratonomous** is a production-ready, open-source algorithmic trading platform built with Flask and React, forked from [OpenAlgo](https://github.com/marketcalls/openalgo). It provides a unified API layer across 24+ Indian brokers, enabling seamless integration with popular platforms like TradingView, Amibroker, Excel, Python, and AI agents. Designed for traders and developers, Tratonomous makes algo trading accessible, secure, and powerful.
 
 ## Quick Links
 
-- **Documentation**: [docs.openalgo.in](https://docs.openalgo.in)
+- **Upstream Documentation**: [docs.openalgo.in](https://docs.openalgo.in)
 - **Installation Guide**: [Getting Started](https://docs.openalgo.in/installation-guidelines/getting-started)
-- **Upgrade Guide**: [Upgrade Instructions](https://docs.openalgo.in/installation-guidelines/getting-started/upgrade)
-- **Why OpenAlgo**: [Why Build with OpenAlgo](https://docs.openalgo.in/why-to-build-with-openalgo)
-- **Video Tutorial**:
-
-[![What is OpenAlgo](https://img.youtube.com/vi/kAS3jTb3OkI/0.jpg)](https://www.youtube.com/watch?v=kAS3jTb3OkI)
+- **Upstream Repository**: [github.com/marketcalls/openalgo](https://github.com/marketcalls/openalgo)
 
 ## Python Compatibility
 
@@ -273,8 +268,8 @@ OpenAlgo uses the modern `uv` package manager for faster, more reliable installa
 
 ```bash
 # Clone the repository
-git clone https://github.com/marketcalls/openalgo.git
-cd openalgo
+git clone https://github.com/tratonomous-crypto/tratonomous.git
+cd tratonomous
 
 # Install UV package manager
 pip install uv
@@ -333,14 +328,24 @@ We welcome contributions! To contribute:
 
 ## Community & Support
 
-- **Discord**: [Join our community](https://www.openalgo.in/discord)
-- **Twitter/X**: [@openalgoHQ](https://twitter.com/openalgoHQ)
-- **YouTube**: [@openalgo](https://www.youtube.com/@openalgo)
-- **GitHub Issues**: [Report bugs or request features](https://github.com/marketcalls/openalgo/issues)
+- **Upstream Discord**: [Join OpenAlgo community](https://www.openalgo.in/discord)
+- **Upstream Twitter/X**: [@openalgoHQ](https://twitter.com/openalgoHQ)
+- **Upstream YouTube**: [@openalgo](https://www.youtube.com/@openalgo)
+- **Tratonomous Issues**: [Report bugs or request features](https://github.com/tratonomous-crypto/tratonomous/issues)
 
 ## License
 
-OpenAlgo is released under the **AGPL V3.0 License**. See [LICENSE](LICENSE) for details.
+Tratonomous is released under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
+This is a fork of [OpenAlgo](https://github.com/marketcalls/openalgo) which is also licensed under AGPL-3.0. In compliance with the license:
+
+- ✅ The full AGPL-3.0 license text is included in [`license.txt`](license.txt)
+- ✅ The original authors ([Marketcalls](https://github.com/marketcalls)) are credited
+- ✅ All modifications are clearly marked as a rebranded fork
+- ✅ The source code remains openly available
+- ✅ This project maintains the same AGPL-3.0 license
+
+See [license.txt](license.txt) for the full license text.
 
 ## Credits & Acknowledgments
 
