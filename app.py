@@ -844,4 +844,15 @@ if __name__ == "__main__":
             "*.bak",
         ]
     }
-    socketio.run(app, host=host_ip, port=port, debug=debug, reloader_options=reloader_options)
+    
+    # Windows lo Werkzeug reloader valla WebSocket data drops/issues vastayi kabatti disable chestunnam
+    use_reloader = debug and sys.platform != "win32"
+    
+    socketio.run(
+        app, 
+        host=host_ip, 
+        port=port, 
+        debug=debug, 
+        use_reloader=use_reloader, 
+        reloader_options=reloader_options
+    )
